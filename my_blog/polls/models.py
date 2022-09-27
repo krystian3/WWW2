@@ -14,5 +14,6 @@ class Choice(models.Model):
 
 
 class Answer(models.Model):
-    answer = models.ForeignKey(Question, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
     answer_text = models.CharField(max_length=200)
+    number_of_appearances = models.IntegerField(default=1)

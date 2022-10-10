@@ -1,0 +1,20 @@
+html {
+    background-color: red;
+    padding: 0px;
+    margin: 0px;
+}
+td, th {
+    border: 2px dashed #696969;
+    background-color: yellow;
+}
+th {
+    background-color: cyan;
+    color: darkgreen;
+}
+h1 {
+    color: darkblue;
+}
+h4 {
+    color: magenta;
+    font-weight: normal;
+}

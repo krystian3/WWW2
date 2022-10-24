@@ -12,7 +12,7 @@
             <th>odp</th>
             <th>głosy</th>
         </tr>
-    {% for choice in question.choice_set.all %}
+    {% for choice in question.choices.all %}
         <tr>
             <td>{{ choice.choice_text }}</td>
             <td>{{ choice.votes }}</td>

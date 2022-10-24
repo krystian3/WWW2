@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Home Albama</title>
+</head>
+<body>
+    <h1>Home</h1>
+    {% if user.is_authenticated %}
+    witaj,
+    {{ request.user }}
+    {% else %}
+    nie jestes zalogowany
+    {% endif %}
+    <a href="http://127.0.0.1:8000/polls">polls</a>
+</body>
+</html>

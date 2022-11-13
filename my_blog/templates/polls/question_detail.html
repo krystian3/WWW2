@@ -19,5 +19,6 @@
         </tr>
     {% endfor %}
     </table>
+    <a href="{% url 'polls:choice_add' question.id%}">Dodaj nowe wybór</a>
 </body>
 </html>

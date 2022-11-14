@@ -19,6 +19,7 @@
         </tr>
     {% endfor %}
     </table>
-    <a href="{% url 'polls:choice_add' question.id%}">Dodaj nowe wybór</a>
+    <a href="{% url 'polls:choice_add' question.id %}">Dodaj nowe wybór</a>
+    <a href="{% url 'polls:question_list'%}">Cofnij</a>
 </body>
 </html>

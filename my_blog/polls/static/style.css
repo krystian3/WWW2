@@ -2,6 +2,7 @@ html {
     background-color: red;
     padding: 0px;
     margin: 0px;
+    float: left;
 }
 td, th {
     border: 2px dashed #696969;
@@ -20,4 +21,7 @@ h2 {
 h4 {
     color: magenta;
     font-weight: normal;
+}
+a {
+    display: block;
 }

@@ -16,6 +16,7 @@ class QuestionForm(forms.ModelForm):
 class ChoiceForm(forms.ModelForm):
    class Meta:
        model = Choice
+       # model = Choice
        fields = '__all__'
        # widgets = {
        #     'pub_date': DateInput(attrs={'type': 'date'}),
